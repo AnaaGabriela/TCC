@@ -124,6 +124,7 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Paginas\pagina_de_cadastro.aspx" />
+    <Content Include="Paginas\pagina_de_personalizacao.aspx" />
     <Content Include="Paginas\Pagina_inicial.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -178,6 +179,13 @@
     </Compile>
     <Compile Include="Paginas\pagina_de_cadastro.aspx.designer.cs">
       <DependentUpon>pagina_de_cadastro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\pagina_de_personalizacao.aspx.cs">
+      <DependentUpon>pagina_de_personalizacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\pagina_de_personalizacao.aspx.designer.cs">
+      <DependentUpon>pagina_de_personalizacao.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\Pagina_inicial.aspx.cs">
       <DependentUpon>Pagina_inicial.aspx</DependentUpon>
