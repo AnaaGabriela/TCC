@@ -123,6 +123,7 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Content Include="Paginas\Chat.aspx" />
     <Content Include="Paginas\pagina_de_cadastro.aspx" />
     <Content Include="Paginas\Pagina_inicial.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -171,6 +172,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Paginas\Chat.aspx.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paginas\Chat.aspx.designer.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
     </Compile>
     <Compile Include="Paginas\pagina_de_cadastro.aspx.cs">
       <DependentUpon>pagina_de_cadastro.aspx</DependentUpon>
